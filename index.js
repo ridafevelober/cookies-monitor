@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-const WEBHOOK_URL = 'https://discord.com/api/webhooks/1532198155599478838/XBx3gLHn-HygocnEyIPqS6DqNgfKfRfT7rAk8nAbG_Sj2p7NYMOzNS-K1JU9fOzOitQ2';
+const WEBHOOK_URL = process.env.WEBHOOK_URL || 'https://discord.com/api/webhooks/1532198155599478838/XBx3gLHn-HygocnEyIPqS6DqNgfKfRfT7rAk8nAbG_Sj2p7NYMOzNS-K1JU9fOzOitQ2';
 const WEBHOOK_URL_WAIT = WEBHOOK_URL + '?wait=true';
 const SEPARATOR_GIF = 'https://media.discordapp.net/attachments/1504994777257738275/1532199182117507202/cookies-line.gif?ex=6a6bfb2f&is=6a6aa9af&hm=66b1e5800a1e4dc4eace380de7c6797d2c05e84e93f764a56ee325a856849de9&=&width=1100&height=172';
 const STATE_FILE = path.join(__dirname, 'state.json');
@@ -240,3 +240,5 @@ const server = http.createServer(async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => console.log('Server on port ' + PORT));
+
+module.exports = { checkForUpdates };

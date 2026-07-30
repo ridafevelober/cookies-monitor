@@ -1,0 +1,29 @@
+name: Check Updates
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install
+
+      - run: node cron-check.js
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update state [skip ci]'
+          file_pattern: state.json
