@@ -22,13 +22,5 @@
     "at-the-abyss-of-fall-i-find-you": 15,
     "star-coin": 6
   },
-  "pendingFollowUps": [
-    {
-      "slug": "star-coin",
-      "chapterNum": 6,
-      "seriesName": "Star coin",
-      "messageId": "1532391778848735303",
-      "scheduledAt": 1785421671517
-    }
-  ]
+  "pendingFollowUps": []
 }
