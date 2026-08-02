@@ -7,7 +7,7 @@
     "i-was-imprisoned-with-the-male-lead-of-the-horror-game": 57,
     "swan-of-the-lake": 8,
     "have-a-nice-day": 6,
-    "the-serpent-of-paradise1": 16,
+    "the-serpent-of-paradise1": 17,
     "red-human": 3,
     "blind-obedience": 14,
     "picked-up-the-villain-from-a-ruined-rofan": 24,
@@ -22,5 +22,13 @@
     "at-the-abyss-of-fall-i-find-you": 15,
     "star-coin": 6
   },
-  "pendingFollowUps": []
+  "pendingFollowUps": [
+    {
+      "slug": "the-serpent-of-paradise1",
+      "chapterNum": 17,
+      "seriesName": "The Serpent of Paradise",
+      "messageId": "1533442084936220793",
+      "scheduledAt": 1785672084058
+    }
+  ]
 }
