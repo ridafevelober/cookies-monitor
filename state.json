@@ -22,13 +22,5 @@
     "at-the-abyss-of-fall-i-find-you": 15,
     "star-coin": 6
   },
-  "pendingFollowUps": [
-    {
-      "slug": "the-serpent-of-paradise1",
-      "chapterNum": 17,
-      "seriesName": "The Serpent of Paradise",
-      "messageId": "1533442084936220793",
-      "scheduledAt": 1785672084058
-    }
-  ]
+  "pendingFollowUps": []
 }
