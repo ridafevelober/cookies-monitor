@@ -22,20 +22,5 @@
     "at-the-abyss-of-fall-i-find-you": 15,
     "star-coin": 6
   },
-  "pendingFollowUps": [
-    {
-      "slug": "lingering-pain",
-      "chapterNum": 20,
-      "seriesName": "Lingering Pain",
-      "messageId": "1533497110274506814",
-      "scheduledAt": 1785685202826
-    },
-    {
-      "slug": "the-tyrant-brother-is-a-bonus",
-      "chapterNum": 35,
-      "seriesName": "The Tyrant Brother is A Bonus",
-      "messageId": "1533497121213518068",
-      "scheduledAt": 1785685205588
-    }
-  ]
+  "pendingFollowUps": []
 }
