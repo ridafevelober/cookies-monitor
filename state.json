@@ -17,10 +17,25 @@
     "my-fiance-is-a-former-assassin-prince": 35,
     "a-fractured-marriage": 6,
     "0-temperature": 8,
-    "lingering-pain": 19,
-    "the-tyrant-brother-is-a-bonus": 33,
+    "lingering-pain": 20,
+    "the-tyrant-brother-is-a-bonus": 35,
     "at-the-abyss-of-fall-i-find-you": 15,
     "star-coin": 6
   },
-  "pendingFollowUps": []
+  "pendingFollowUps": [
+    {
+      "slug": "lingering-pain",
+      "chapterNum": 20,
+      "seriesName": "Lingering Pain",
+      "messageId": "1533497110274506814",
+      "scheduledAt": 1785685202826
+    },
+    {
+      "slug": "the-tyrant-brother-is-a-bonus",
+      "chapterNum": 35,
+      "seriesName": "The Tyrant Brother is A Bonus",
+      "messageId": "1533497121213518068",
+      "scheduledAt": 1785685205588
+    }
+  ]
 }
